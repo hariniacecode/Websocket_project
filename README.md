@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #### Video Tutorial to build this project
 https://youtu.be/SQ4A7Q6_md8
 <br><br>
@@ -85,3 +86,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 http://localhost:8000
+=======
+# Websocket_project
+This project is done to understand the concept of websockets in real time communication.
+>>>>>>> f2df496db7bc3165bfdb920bf3483afa89e006be
