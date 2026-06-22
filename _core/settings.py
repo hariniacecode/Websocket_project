@@ -163,3 +163,8 @@ AUTH_USER_MODEL = 'a_users.CustomUser'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_LOGIN_METHODS = {'email', 'username'}
 ACCOUNT_SIGNUP_FIELDS = ['email*', 'username*', 'password1*', 'password2*']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://websocket-project-3-obxo.onrender.com',
+    'http://127.0.0.1:8000',
+]
